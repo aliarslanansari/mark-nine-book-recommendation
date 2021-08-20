@@ -38,7 +38,6 @@ export default function App() {
     <div className='App'>
       <h1> 📚 goodbooks </h1>
       <p style={{ fontSize: 'smaller' }}>
-        {' '}
         Checkout my favorite books. Select a genre to get started{' '}
       </p>
 
@@ -72,7 +71,6 @@ export default function App() {
                 margin: '1rem 0rem',
                 borderRadius: '0.5rem',
               }}>
-              {' '}
               <div style={{ fontSize: 'larger' }}> {book.name} </div>
               <div style={{ fontSize: 'smaller' }}> {book.rating} </div>
             </li>
